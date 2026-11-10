@@ -1,0 +1,36 @@
+:root{--paper:#fbfaf6;--ink:#111;--gray:#5e5e5e;--rule:#d9d6cc;--accent:#8a1c1c}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--paper);color:var(--ink);font:19px/1.7 "Libre Caslon Text",Georgia,serif}
+a{color:inherit}
+.wrap{max-width:720px;margin:0 auto;padding:0 20px}
+.label{font:600 11px/1.3 "Libre Franklin",Helvetica,Arial,sans-serif;text-transform:uppercase;letter-spacing:.09em}
+.bar{position:fixed;top:0;left:0;height:3px;width:0;background:var(--accent);z-index:9}
+.top{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;padding-top:18px;padding-bottom:14px;border-bottom:3px double var(--ink);max-width:1080px}
+.m{font:400 34px "Libre Caslon Display",Georgia,serif;text-decoration:none}
+.top nav{display:flex;gap:20px}.top nav a{text-decoration:none}.sp{color:var(--accent)}
+.art{padding-top:34px}
+.k{color:var(--accent)}
+h1{font:400 clamp(34px,6vw,52px)/1.08 "Libre Caslon Display",Georgia,serif;margin:10px 0 14px}
+.dek{font-size:22px;line-height:1.45;color:#333}
+.by{color:var(--gray);margin:16px 0 22px;padding-bottom:16px;border-bottom:1px solid var(--rule)}
+.ill svg{width:100%;height:auto;display:block}
+.ill{margin-bottom:26px;padding-bottom:12px;border-bottom:1px solid var(--rule)}
+.body p{margin-bottom:18px}
+.body>p:first-child::first-letter{float:left;font:400 74px/.82 "Libre Caslon Display",Georgia,serif;padding:8px 10px 0 0}
+.body h3{font:400 28px/1.2 "Libre Caslon Display",Georgia,serif;margin:34px 0 12px}
+.body ul{margin:0 0 18px 22px}.body li{margin-bottom:10px}
+.body blockquote{border-left:3px solid var(--accent);padding-left:18px;font-style:italic;margin:24px 0}
+.body a{text-decoration-color:var(--accent);text-underline-offset:3px}
+.cta{background:var(--ink);color:#f3f1ea;padding:26px;margin:40px 0}
+.cta .label{color:#c9b98f}.cta h2{font:400 28px/1.2 "Libre Caslon Display",Georgia,serif;margin:8px 0 16px}
+.btn{display:flex;justify-content:space-between;background:#f3f1ea;color:var(--ink);padding:14px 16px;font:800 14px "Libre Franklin",sans-serif;text-transform:uppercase;letter-spacing:.06em;text-decoration:none}
+.btn:hover{background:#c9b98f}
+.src{border-top:2px solid var(--ink);padding-top:10px}.src ol{margin:10px 0 0 20px;font:14px/1.55 "Libre Franklin",sans-serif;color:var(--gray)}.src li{margin-bottom:6px}
+.others{margin-top:34px;border-top:2px solid var(--ink);padding-top:10px}
+.o{display:block;text-decoration:none;padding:14px 0;border-bottom:1px solid var(--rule)}.o .label{color:var(--accent)}.o b{display:block;font:400 24px/1.2 "Libre Caslon Display",Georgia,serif;margin-top:4px}.o:hover b{text-decoration:underline}
+footer{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;padding:30px 20px 40px;color:var(--gray);max-width:1080px}
+@media(max-width:600px){body{font-size:17px}.dek{font-size:19px}}
+
+.brief{border-left:3px solid var(--accent);background:#fff;padding:14px 18px;margin:0 0 26px}.brief h2{color:var(--accent);margin-bottom:6px}.brief p{font-size:18px;line-height:1.6}
+.body h2.sec{font:400 28px/1.2 "Libre Caslon Display",Georgia,serif;margin:34px 0 12px}
+.ai{color:var(--gray);margin:30px 0 0;text-transform:none;letter-spacing:0;font-size:13px;font-weight:400}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>CRE Insider Italia</title>
+<link>https://cre-insider.online/</link>
+<atom:link href="https://cre-insider.online/feed.xml" rel="self" type="application/rss+xml"/>
+<description>Analisi settimanale del real estate commerciale italiano: uffici, logistica, investimenti.</description>
+<language>it-it</language>
+<item><title>Retail, il semestre record: dove va il capitale e cosa rischia</title><link>https://cre-insider.online/articoli/retail-record-2026.html</link><guid>https://cre-insider.online/articoli/retail-record-2026.html</guid><pubDate>Tue, 10 Nov 2026 07:00:00 +0100</pubDate><description>Oltre 7 miliardi investiti nel commercial real estate italiano nel primo semestre 2026, con il retail in testa per quota. Dati Savills, JLL e altre fonti.</description></item>
+<item>
+<title>Sede da rifinanziare: la classe energetica entra nel prezzo del debito</title>
+<link>https://cre-insider.online/articoli/uffici-epbd-debito.html</link>
+<guid>https://cre-insider.online/articoli/uffici-epbd-debito.html</guid>
+<pubDate>Fri, 30 Oct 2026 08:00:00 +0000</pubDate>
+<description>Direttiva EPBD, linee guida EBA e tassonomia UE spingono le banche a pesare l'efficienza degli uffici nel rischio. A Milano il grado A ha sfitto al 3,6%.</description>
+</item>
+<item>
+<title>Logistica, il capitale c'è. Manca il terreno autorizzato</title>
+<link>https://cre-insider.online/articoli/logistica-terreno-last-mile.html</link>
+<guid>https://cre-insider.online/articoli/logistica-terreno-last-mile.html</guid>
+<pubDate>Fri, 30 Oct 2026 08:00:00 +0000</pubDate>
+<description>Investimenti a 2,3 miliardi e assorbimento record, ma i terreni edificabili si restringono. Il valore va verso last-mile urbano e aree dismesse.</description>
+</item>
+<item>
+<title>Da uffici a letti: la seconda vita del direzionale obsoleto</title>
+<link>https://cre-insider.online/articoli/riconversioni-uffici.html</link>
+<guid>https://cre-insider.online/articoli/riconversioni-uffici.html</guid>
+<pubDate>Fri, 30 Oct 2026 08:00:00 +0000</pubDate>
+<description>Il Salva Casa semplifica il passaggio da ufficio ad abitazione solo in alcune zone. Quando conviene puntare su residenze, studentati o hotel.</description>
+</item>
+</channel>
+</rss>
