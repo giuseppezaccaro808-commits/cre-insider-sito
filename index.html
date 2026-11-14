@@ -98,7 +98,7 @@
   .audience { display: grid; grid-template-columns: repeat(4, 1fr); margin: 28px 0; border-top: 1px solid #444; border-bottom: 1px solid #444; }
   .audience div { padding: 16px 16px 16px 0; font: 15px/1.4 var(--sans); color: #c8c5bc; }
   .audience strong { display: block; font: 400 24px var(--display); color: #fff; margin-bottom: 4px; }
-  .plans { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+  .plans { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; }
   .plan { border: 1px solid #555; padding: 22px; }
   .plan.hl { border-color: #c9b98f; background: #1b1a17; }
   .plan h3 { font: 400 26px var(--display); margin-top: 4px; }
@@ -321,6 +321,16 @@
             <li>Una menzione al mese su LinkedIn</li>
             <li>Un contenuto firmato al mese</li>
             <li>Primo mese di prova senza vincolo</li>
+          </ul>
+        </div>
+        <div class="plan">
+          <span class="label">Per provare · PropTech Day</span>
+          <h3>Uscita singola</h3>
+          <p class="price">290 € <span>+ IVA</span></p>
+          <ul>
+            <li>Spazio sponsor in una newsletter del martedì</li>
+            <li>Un post LinkedIn dedicato</li>
+            <li>Nessun abbonamento</li>
           </ul>
         </div>
         <div class="plan">
