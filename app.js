@@ -49,3 +49,17 @@
     document.getElementById('sponsor-grazie').hidden = false;
   });
 })();
+
+(function () {
+  var b = document.getElementById('geo');
+  if (!b) return;
+  try { if (localStorage.getItem('geo-x')) return; } catch (e) {}
+  var lang = (navigator.language || '').toLowerCase();
+  var tz = '';
+  try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch (e) {}
+  var italia = lang.indexOf('it') === 0 || tz === 'Europe/Rome';
+  if (italia) return;
+  b.hidden = false;
+  var x = document.getElementById('geo-x');
+  if (x) x.addEventListener('click', function () { b.hidden = true; try { localStorage.setItem('geo-x', '1'); } catch (e) {} });
+})();
