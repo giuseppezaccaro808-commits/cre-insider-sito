@@ -34,3 +34,13 @@ footer{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;paddin
 .brief{border-left:3px solid var(--accent);background:#fff;padding:14px 18px;margin:0 0 26px}.brief h2{color:var(--accent);margin-bottom:6px}.brief p{font-size:18px;line-height:1.6}
 .body h2.sec{font:400 28px/1.2 "Libre Caslon Display",Georgia,serif;margin:34px 0 12px}
 .ai{color:var(--gray);margin:30px 0 0;text-transform:none;letter-spacing:0;font-size:13px;font-weight:400}
+.cta form{display:grid;gap:12px}
+.cta input[type=email]{width:100%;padding:12px;border:1px solid #f3f1ea;background:#fbfaf6;color:var(--ink);font:16px "Libre Franklin",Helvetica,Arial,sans-serif;border-radius:0}
+.cta input[type=email]:focus{outline:2px solid #c9b98f;outline-offset:1px}
+.cta .consent{display:flex;gap:8px;align-items:flex-start;font:12px/1.45 "Libre Franklin",Helvetica,Arial,sans-serif;color:#d8d4c8}
+.cta .consent input{margin-top:2px;accent-color:#c9b98f}.cta .consent a{color:#f3f1ea}
+.cta button.btn{width:100%;border:0;cursor:pointer}.cta button.btn:disabled{opacity:.7;cursor:wait}
+.cta .small{font:12px "Libre Franklin",Helvetica,Arial,sans-serif;color:#c9c4b6}
+.cta .done p:first-child{font:400 24px "Libre Caslon Display",Georgia,serif;margin-bottom:12px}.cta .done .small{margin-top:10px}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
+[hidden]{display:none!important}
